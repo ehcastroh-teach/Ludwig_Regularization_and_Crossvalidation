@@ -1,0 +1,8 @@
+ludwig==0.2.1
+torchtext==0.6.0
+torch>=1.4.0
+tensorflow>=2.0.0
+pandas
+nltk
+tqdm
+pyyaml

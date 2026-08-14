@@ -1,0 +1,9 @@
+assets/venv/
+assets/homeworks/logs/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+results/
+bert/
+*.ckpt*
+assets/content/datax_logos/
