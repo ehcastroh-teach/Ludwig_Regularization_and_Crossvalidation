@@ -7,3 +7,4 @@ results/
 bert/
 *.ckpt*
 assets/content/datax_logos/
+.attribution-pass
