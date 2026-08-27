@@ -19,8 +19,8 @@ This repository teaches how to identify and address common machine learning prob
 
 | File | Description |
 |------|-------------|
-| `Ludwig_Regularization_and_Crossvalidation.ipynb` | Main tutorial - builds and compares four Ludwig NLP models on the SST dataset |
-| `assets/homeworks/m410_homework-1_tensorflow.ipynb` | Companion exercise covering TensorFlow tensor operations and gradient computation |
+| `ludwig_regularization_and_crossvalidation.ipynb` | Main tutorial - builds and compares three Ludwig NLP encoders on the SST dataset using early stopping and learning rate regularization |
+| `assets/homeworks/tensorflow_tensors_gradients_companion.ipynb` | Companion exercise covering TensorFlow tensor creation, type casting, graph tracing, and automatic differentiation via `tf.GradientTape` |
 | `requirements.txt` | Python package dependencies |
 | `assets/content/images/` | Reference images used in the notebook |
 
@@ -106,6 +106,7 @@ Run each trained model on the held-out test set. Compare accuracy scores to dete
 git clone https://github.com/ehcastroh-teach/Ludwig_Regularization_and_Crossvalidation.git
 cd Ludwig_Regularization_and_Crossvalidation
 
+
 # 2. Create and activate a virtual environment (Python 3.7+ recommended)
 python3 -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
@@ -114,7 +115,7 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 # 4. Open the notebook
-jupyter notebook Ludwig_Regularization_and_Crossvalidation.ipynb
+jupyter notebook ludwig_regularization_and_crossvalidation.ipynb
 
 # 5. Run all cells top-to-bottom (Kernel > Restart and Run All)
 ```

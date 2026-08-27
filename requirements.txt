@@ -1,8 +1,10 @@
 ludwig==0.2.1
 torchtext==0.6.0
-torch>=1.4.0
-tensorflow>=2.0.0
-pandas
-nltk
-tqdm
-pyyaml
+torch==1.4.0
+# Ludwig 0.2.1 requires TensorFlow 1.15 (not TF 2.x)
+# GPU (recommended): tensorflow-gpu==1.15.2
+# CPU only:         tensorflow==1.15.2
+pandas>=0.25.0
+nltk>=3.4.0
+tqdm>=4.0.0
+pyyaml>=5.0.0
