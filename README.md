@@ -143,17 +143,19 @@ Note: A GPU is strongly recommended. The notebook includes a GPU availability ch
 
 ## Further Reading
 
-- *Deep Learning* - Goodfellow, Bengio, Courville
-- *Natural Language Processing with PyTorch* - Rao, McMahan
+- *Deep Learning* - MIT Press
+- *Natural Language Processing with PyTorch* - O'Reilly
 - Ludwig documentation: [ludwig-ai.github.io/ludwig-docs](https://ludwig-ai.github.io/ludwig-docs/)
 - Stanford Sentiment Treebank: [nlp.stanford.edu/sentiment](https://nlp.stanford.edu/sentiment/)
-- *Recursive Deep Models for Semantic Compositionality over a Sentiment Treebank* - Socher et al. (2013)
+- *Recursive Deep Models for Semantic Compositionality over a Sentiment Treebank* - EMNLP 2013
 
 ---
 
 ## Credits and Acknowledgements
 
 - Ludwig framework: Piero Molino and the Ludwig team
+- *Deep Learning*: Goodfellow, Bengio, Courville (MIT Press, 2016)
+- *Natural Language Processing with PyTorch*: Rao, McMahan (O'Reilly, 2019)
 - Stanford Sentiment Treebank: Socher et al. (2013), built on the Rotten Tomatoes dataset by Pang and Lee (2005)
 - Torchtext: PyTorch team
 
